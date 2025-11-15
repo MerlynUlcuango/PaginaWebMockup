@@ -7,3 +7,4 @@ export default function ProtectedRoute({ children }){
   if (!loggedIn) return <Navigate to="/login" replace />
   return children
 }
+//comentario
